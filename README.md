@@ -7,8 +7,8 @@ Truckfolio 是一款用于整理 **卡车摄影作品** 的本地图鉴工具。
 
 它最初为个人拍车摄影整理需求而制作，后来因为用着还挺顺手，于是顺便公开发布给有类似需求的人。
 
-> 当前版本：**v0.3.7 Beta**  
-> 当前软件界面仅提供 **中文**。  
+> 当前版本：**v0.3.8 Beta**  
+> 当前软件界面支持 **中文 / English**。  
 > Beta 阶段仍可能偶尔有一些小虫子乱爬 🐛
 
 ![Truckfolio 整体图鉴](assets/screenshots/library.png)
@@ -101,6 +101,7 @@ Truckfolio 会根据已经整理的车辆生成本地摄影统计，包括：
 - 本地缓存与存储目录管理
 - 浅色 / 深色 / 跟随系统主题
 - 中英文品牌名称显示切换
+- 中文 / English 界面切换
 - 车辆信息文本复制与粘贴
 
 ---
@@ -112,7 +113,7 @@ Truckfolio 会根据已经整理的车辆生成本地摄影统计，包括：
 | 平台 | 安装包 |
 | --- | --- |
 | macOS | `.dmg` |
-| Windows | `.msi` |
+| Windows | `.msi` / `.exe` |
 
 ### 系统提示
 
@@ -197,8 +198,8 @@ The name comes from **Truck + Portfolio**.
 
 Originally created for personal truck-photography organization, Truckfolio eventually became useful enough to be released publicly for others with similar needs.
 
-> Current version: **v0.3.7 Beta**  
-> The application interface is currently available in **Chinese only**.  
+> Current version: **v0.3.8 Beta**  
+> The application interface is available in **Chinese and English**.  
 > As a Beta release, a few little bugs may still be crawling around. 🐛
 
 ## Features
@@ -285,6 +286,7 @@ Each truck entry can contain multiple photographs, with support for:
 - Local cache and storage-directory management
 - Light / Dark / System theme
 - Chinese / English brand-name display
+- Chinese / English interface language switching
 - Copying and pasting structured vehicle information
 
 ---
@@ -296,7 +298,7 @@ Download the latest version from **GitHub Releases**.
 | Platform | Package |
 | --- | --- |
 | macOS | `.dmg` |
-| Windows | `.msi` |
+| Windows | `.msi` / `.exe` |
 
 ### Installation notice
 
