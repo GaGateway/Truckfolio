@@ -131,6 +131,24 @@ Truckfolio 会根据已经整理的车辆生成本地摄影统计，包括：
 
 然后再次确认启动。
 
+如果 macOS 直接提示 **“Truckfolio 已损坏，无法打开”** 或要求将应用移到废纸篓，请确认应用是从本项目官方 **GitHub Releases** 下载的，然后将 Truckfolio 拖入 **应用程序（Applications）** 文件夹。
+
+打开 **终端 Terminal**，运行：
+
+```bash
+xattr -dr com.apple.quarantine /Applications/Truckfolio.app
+```
+
+运行完成后重新打开 Truckfolio。
+
+如果 Truckfolio 不在“应用程序”文件夹中，也可以先在终端输入：
+
+```bash
+xattr -dr com.apple.quarantine 
+```
+
+保留命令末尾的空格，然后把 `Truckfolio.app` 直接拖进终端窗口，按下 Enter 即可。
+
 #### Windows
 
 Windows SmartScreen 可能会对尚未建立信誉的应用显示提示。请确认安装包来自本项目的 GitHub Releases 页面后，再决定是否继续运行。
@@ -315,6 +333,24 @@ If macOS prevents Truckfolio from opening, try launching it once and then go to:
 **System Settings → Privacy & Security → Open Anyway**
 
 Confirm the prompt to launch the application.
+
+If macOS instead says **“Truckfolio is damaged and can’t be opened”** or asks you to move it to the Trash, make sure Truckfolio was downloaded from this project's official **GitHub Releases** page, then move Truckfolio into the **Applications** folder.
+
+Open **Terminal** and run:
+
+```bash
+xattr -dr com.apple.quarantine /Applications/Truckfolio.app
+```
+
+After the command finishes, try opening Truckfolio again.
+
+If Truckfolio is stored somewhere else, you can type the following command in Terminal:
+
+```bash
+xattr -dr com.apple.quarantine 
+```
+
+Keep the trailing space, drag `Truckfolio.app` directly into the Terminal window to insert its full path, then press Enter.
 
 #### Windows
 
