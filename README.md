@@ -32,6 +32,17 @@ Truckfolio 的信息结构围绕卡车摄影设计，可以为每辆车记录：
 
 同一辆车可以关联多张照片，并设置封面与调整照片顺序。
 
+### 🚛 品牌与车型数据库
+
+Truckfolio 内置卡车品牌与车型数据，并持续扩充：
+
+- 扩展品牌与车型数据库
+- 新增 Tatra
+- 增加更多 Mercedes-Benz 车型
+- 增加 Scania Super 车型变体
+- 优化 Scania T 系列说明
+- 增加品牌来源信息
+
 ### 🗂 本地图鉴
 
 Truckfolio 使用本地索引管理摄影作品。
@@ -91,6 +102,18 @@ Truckfolio 会根据已经整理的车辆生成本地摄影统计，包括：
 - 删除单张关联照片
 
 ![编辑车辆](assets/screenshots/edit-vehicle.png)
+
+### 🔍 照片查看器
+
+照片查看器已升级，支持更自然的浏览与缩放：
+
+- 鼠标滚轮缩放
+- 图片拖动与平移
+- 双击缩放
+- 缩放控制按钮
+- 更平滑的边界行为
+- macOS 触控板双指平移
+- macOS 触控板捏合缩放
 
 ### 🧰 其他功能
 
@@ -239,6 +262,17 @@ Truckfolio provides dedicated fields for recording:
 
 Multiple photos can be associated with the same truck, with support for choosing a cover image and rearranging photo order.
 
+### 🚛 Brand and model database
+
+Truckfolio includes a built-in truck brand and model database that continues to expand:
+
+- Expanded truck brand and model coverage
+- Added Tatra
+- Added more Mercedes-Benz models
+- Added Scania Super variants
+- Improved Scania T-series description
+- Added brand origin information
+
 ### 🗂 Local photo catalog
 
 Truckfolio works as a local index for your photography collection.
@@ -294,6 +328,18 @@ Each truck entry can contain multiple photographs, with support for:
 - Drag-and-drop ordering
 - Viewing photo information
 - Removing individual photo associations
+
+### 🔍 Photo viewer
+
+The photo viewer has been upgraded for smoother browsing and zooming:
+
+- Mouse wheel zoom
+- Image dragging and panning
+- Double-click zoom
+- Zoom controls
+- Smoother boundary behavior
+- macOS trackpad two-finger panning
+- macOS trackpad pinch-to-zoom
 
 ### 🧰 Additional features
 
