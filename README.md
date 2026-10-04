@@ -7,7 +7,7 @@ Truckfolio 是一款用于整理 **卡车摄影作品** 的本地图鉴工具。
 
 它最初为个人拍车摄影整理需求而制作，后来因为用着还挺顺手，于是顺便公开发布给有类似需求的人。
 
-> 当前版本：**v0.3.8 Beta**  
+> 当前版本：**v0.3.9 Beta**  
 > 当前软件界面支持 **中文 / English**。  
 > Beta 阶段仍可能偶尔有一些小虫子乱爬 🐛
 
@@ -239,7 +239,7 @@ The name comes from **Truck + Portfolio**.
 
 Originally created for personal truck-photography organization, Truckfolio eventually became useful enough to be released publicly for others with similar needs.
 
-> Current version: **v0.3.8 Beta**  
+> Current version: **v0.3.9 Beta**  
 > The application interface is available in **Chinese and English**.  
 > As a Beta release, a few little bugs may still be crawling around. 🐛
 
