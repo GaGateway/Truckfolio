@@ -7,7 +7,7 @@ Truckfolio 是一款用于整理 **卡车摄影作品** 的本地图鉴工具。
 
 它最初为个人拍车摄影整理需求而制作，后来因为用着还挺顺手，于是顺便公开发布给有类似需求的人。
 
-> 当前版本：**v0.3.9 Beta**  
+> 当前版本：**v0.4.0 Beta**  
 > 当前软件界面支持 **中文 / English**。  
 > Beta 阶段仍可能偶尔有一些小虫子乱爬 🐛
 
@@ -42,6 +42,10 @@ Truckfolio 内置卡车品牌与车型数据，并持续扩充：
 - 增加 Scania Super 车型变体
 - 优化 Scania T 系列说明
 - 增加品牌来源信息
+- 优化品牌自动识别，精确匹配优先于部分匹配
+- 修复 MAN 可能被 Shacman 文本误识别的问题
+- 优化 MAN、DAF、JAC、UD 等短品牌名的匹配
+- 手动选择品牌后会确认当前选择，避免被自动识别覆盖；再次编辑品牌字段后恢复自动识别
 
 ### 🗂 本地图鉴
 
@@ -239,7 +243,7 @@ The name comes from **Truck + Portfolio**.
 
 Originally created for personal truck-photography organization, Truckfolio eventually became useful enough to be released publicly for others with similar needs.
 
-> Current version: **v0.3.9 Beta**  
+> Current version: **v0.4.0 Beta**  
 > The application interface is available in **Chinese and English**.  
 > As a Beta release, a few little bugs may still be crawling around. 🐛
 
@@ -272,6 +276,10 @@ Truckfolio includes a built-in truck brand and model database that continues to 
 - Added Scania Super variants
 - Improved Scania T-series description
 - Added brand origin information
+- Improved automatic brand recognition with exact matches taking priority over partial matches
+- Fixed MAN being incorrectly detected inside Shacman
+- Improved matching for short brand names such as MAN, DAF, JAC, and UD
+- Manual brand selection now confirms the current choice and prevents automatic recognition from overriding it; editing the brand field again re-enables automatic recognition
 
 ### 🗂 Local photo catalog
 
