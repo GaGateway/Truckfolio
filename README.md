@@ -8,9 +8,19 @@ Truckfolio 是一款用于整理 **卡车摄影作品** 的本地图鉴工具。
 它最初为个人拍车摄影整理需求而制作，后来因为用着还挺顺手，于是顺便公开发布给有类似需求的人。
 
 > 当前版本：**v0.4.1**  
-> 当前软件界面支持 **中文 / English**。
+> 当前软件界面支持 **中文 / English**。  
+> 如果偶尔遇到偷偷溜进来的小虫子，欢迎通过 [GitHub Issues](https://github.com/GaGateway/Truckfolio/issues) 抓给我们 🐛
 
 ![Truckfolio 整体图鉴](assets/screenshots/library.png)
+
+## 它是什么？
+
+Truckfolio 是一个**纯本地的摄影作品图鉴**，不是云图库。
+
+照片需要由你自己拍摄或保存，并存放在自己的电脑或硬盘里。Truckfolio 只负责在本地帮你整理这些作品，不会上传你的照片，也不会提供其他人的卡车照片 XwX
+
+- ✅ 我自己拍了一堆车，想要一个软件来整理这些摄影作品
+- ❌ 我想要一个像 JetPhotos 一样、可以浏览大家作品的卡车云图库
 
 ## 特点
 
@@ -236,9 +246,19 @@ The name comes from **Truck + Portfolio**.
 Originally created for personal truck-photography organization, Truckfolio eventually became useful enough to be released publicly for others with similar needs.
 
 > Current version: **v0.4.1**  
-> The application interface is available in **Chinese and English**.
+> The application interface is available in **Chinese and English**.  
+> If a little bug occasionally sneaks in, feel free to catch it and report it through [GitHub Issues](https://github.com/GaGateway/Truckfolio/issues). 🐛
 
 ![Truckfolio library](assets/screenshots/library-en.png)
+
+## What is Truckfolio?
+
+Truckfolio is a **fully local catalog for your own photography**, not a cloud gallery.
+
+Your photos need to be taken or saved by you and kept on your own computer or drive. Truckfolio organizes them locally; it does not upload your photos or provide anyone else's truck photos. XwX
+
+- ✅ I have photographed a lot of trucks and want an app to organize my work
+- ❌ I want a JetPhotos-style cloud gallery where I can browse everyone's work
 
 ## Features
 
