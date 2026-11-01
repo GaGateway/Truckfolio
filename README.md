@@ -7,7 +7,8 @@ Truckfolio 是一款用于整理 **卡车摄影作品** 的本地图鉴工具。
 
 它最初为个人拍车摄影整理需求而制作，后来因为用着还挺顺手，于是顺便公开发布给有类似需求的人。
 
-> 当前版本：**v0.4.1**。当前为正式公开版本，软件界面支持 **中文 / English**。
+> 当前版本：**v0.4.1**  
+> 当前软件界面支持 **中文 / English**。
 
 ![Truckfolio 整体图鉴](assets/screenshots/library.png)
 
@@ -32,14 +33,19 @@ Truckfolio 的信息结构围绕卡车摄影设计，可以为每辆车记录：
 
 ### 🚛 品牌与车型数据库
 
-Truckfolio 内置常见卡车品牌、系列与车型资料，并持续扩充：
+Truckfolio 内置卡车品牌与车型数据，并持续扩充：
 
-- 覆盖欧洲、亚洲、美洲等地区的常见卡车品牌
-- 提供中英文品牌名称与品牌来源信息
-- 提供车头、牵引车、载货车、厢式载货车、侧帘式载货车、平板载货车、冷藏车、集装箱运输车、集装箱侧装车等车型预设与简要说明
-- 支持品牌与系列自动补全
-- 品牌自动识别会优先精确匹配，并优化 MAN、DAF、JAC、UD 等短品牌名的识别
-- 手动选择品牌后会保留当前选择；再次编辑品牌字段后恢复自动识别
+- 扩展品牌与车型数据库
+- 新增 Tatra
+- 增加更多 Mercedes-Benz 车型
+- 增加 Scania Super 车型变体
+- 优化 Scania T 系列说明
+- 增加品牌来源信息
+- 增加常见车型预设与简要说明
+- 优化品牌自动识别，精确匹配优先于部分匹配
+- 修复 MAN 可能被 Shacman 文本误识别的问题
+- 优化 MAN、DAF、JAC、UD 等短品牌名的匹配
+- 手动选择品牌后会确认当前选择，避免被自动识别覆盖；再次编辑品牌字段后恢复自动识别
 
 ### 🗂 本地图鉴
 
@@ -229,7 +235,8 @@ The name comes from **Truck + Portfolio**.
 
 Originally created for personal truck-photography organization, Truckfolio eventually became useful enough to be released publicly for others with similar needs.
 
-> Current version: **v0.4.1**. This is the stable public release, with an interface available in **Chinese and English**.
+> Current version: **v0.4.1**  
+> The application interface is available in **Chinese and English**.
 
 ![Truckfolio library](assets/screenshots/library-en.png)
 
@@ -254,14 +261,19 @@ Multiple photos can be associated with the same truck, with support for choosing
 
 ### 🚛 Brand and model database
 
-Truckfolio includes a built-in truck brand, series, and vehicle-type database that continues to expand:
+Truckfolio includes a built-in truck brand and model database that continues to expand:
 
-- Covers common truck brands from Europe, Asia, the Americas, and other regions
-- Includes Chinese and English brand names with brand-origin information
-- Includes presets and short descriptions for cab units, tractor units, rigid trucks, box trucks, curtain-siders, flatbeds, refrigerated trucks, container trucks, and sideloaders
-- Supports brand and series autocomplete
-- Automatic brand recognition prioritizes exact matches and improves handling of short names such as MAN, DAF, JAC, and UD
-- Manual brand selections are preserved until the brand field is edited again
+- Expanded truck brand and model coverage
+- Added Tatra
+- Added more Mercedes-Benz models
+- Added Scania Super variants
+- Improved Scania T-series description
+- Added brand origin information
+- Added common vehicle-type presets with short descriptions
+- Improved automatic brand recognition with exact matches taking priority over partial matches
+- Fixed MAN being incorrectly detected inside Shacman
+- Improved matching for short brand names such as MAN, DAF, JAC, and UD
+- Manual brand selection now confirms the current choice and prevents automatic recognition from overriding it; editing the brand field again re-enables automatic recognition
 
 ### 🗂 Local photo catalog
 
