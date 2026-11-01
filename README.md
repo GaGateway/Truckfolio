@@ -1,4 +1,4 @@
-# Truckfolio beta
+# Truckfolio
 
 **为卡车摄影爱好者制作。**
 
@@ -7,9 +7,7 @@ Truckfolio 是一款用于整理 **卡车摄影作品** 的本地图鉴工具。
 
 它最初为个人拍车摄影整理需求而制作，后来因为用着还挺顺手，于是顺便公开发布给有类似需求的人。
 
-> 当前版本：**v0.4.0 Beta**  
-> 当前软件界面支持 **中文 / English**。  
-> Beta 阶段仍可能偶尔有一些小虫子乱爬 🐛
+> 当前版本：**v0.4.1**。当前为正式公开版本，软件界面支持 **中文 / English**。
 
 ![Truckfolio 整体图鉴](assets/screenshots/library.png)
 
@@ -34,18 +32,14 @@ Truckfolio 的信息结构围绕卡车摄影设计，可以为每辆车记录：
 
 ### 🚛 品牌与车型数据库
 
-Truckfolio 内置卡车品牌与车型数据，并持续扩充：
+Truckfolio 内置常见卡车品牌、系列与车型资料，并持续扩充：
 
-- 扩展品牌与车型数据库
-- 新增 Tatra
-- 增加更多 Mercedes-Benz 车型
-- 增加 Scania Super 车型变体
-- 优化 Scania T 系列说明
-- 增加品牌来源信息
-- 优化品牌自动识别，精确匹配优先于部分匹配
-- 修复 MAN 可能被 Shacman 文本误识别的问题
-- 优化 MAN、DAF、JAC、UD 等短品牌名的匹配
-- 手动选择品牌后会确认当前选择，避免被自动识别覆盖；再次编辑品牌字段后恢复自动识别
+- 覆盖欧洲、亚洲、美洲等地区的常见卡车品牌
+- 提供中英文品牌名称与品牌来源信息
+- 提供车头、牵引车、载货车、厢式载货车、侧帘式载货车、平板载货车、冷藏车、集装箱运输车、集装箱侧装车等车型预设与简要说明
+- 支持品牌与系列自动补全
+- 品牌自动识别会优先精确匹配，并优化 MAN、DAF、JAC、UD 等短品牌名的识别
+- 手动选择品牌后会保留当前选择；再次编辑品牌字段后恢复自动识别
 
 ### 🗂 本地图鉴
 
@@ -59,7 +53,7 @@ Truckfolio 使用本地索引管理摄影作品。
 
 照片仍然留在原来的文件夹中。
 
-![车辆详情](assets/screenshots/vehicle-detail.png)
+需要时还可以直接定位原始照片所在位置。
 
 ### 🔎 搜索与筛选
 
@@ -102,8 +96,11 @@ Truckfolio 会根据已经整理的车辆生成本地摄影统计，包括：
 - 添加本地照片
 - 设置封面
 - 拖动调整顺序
-- 查看照片信息
+- 使用键盘左右方向键切换照片
+- 查看并定位原始照片
 - 删除单张关联照片
+
+删除车辆记录时，对应的缓存缩略图也会一起清理，原始照片不会被删除。
 
 ![编辑车辆](assets/screenshots/edit-vehicle.png)
 
@@ -130,17 +127,20 @@ Truckfolio 会根据已经整理的车辆生成本地摄影统计，包括：
 - 中英文品牌名称显示切换
 - 中文 / English 界面切换
 - 车辆信息文本复制与粘贴
+- 导入车辆文本时，未知、空白或未识别字段不会覆盖已经填写的内容
+- 优化大量照片的添加与浏览流畅度，尤其针对 Windows 环境
+- 缩略图保留原图色彩并改善边缘显示
 
 ---
 
 ## 下载
 
-请前往 GitHub **Releases** 下载最新版本。
+请前往 GitHub **[Releases](https://github.com/GaGateway/Truckfolio/releases/latest)** 下载最新版本。
 
 | 平台 | 安装包 |
 | --- | --- |
-| macOS | `.dmg` |
-| Windows | `.msi` / `.exe` |
+| macOS | `.dmg`（Apple Silicon） |
+| Windows | `.exe`（x64） |
 
 ### 系统提示
 
@@ -182,20 +182,6 @@ Windows SmartScreen 可能会对尚未建立信誉的应用显示提示。请确
 
 ---
 
-## 关于 Beta
-
-Truckfolio 目前仍处于 **Beta** 阶段。
-
-主要功能已经可以正常使用，但仍可能存在：
-
-- 偶发 Bug
-- 特定环境下的兼容性问题
-- 尚未发现的界面或数据异常
-
-如果遇到奇怪的小虫子，欢迎通过 GitHub Issues 提交问题。
-
----
-
 ## 数据与隐私
 
 Truckfolio 是一个本地应用。
@@ -233,7 +219,7 @@ Copyright © 2026 GaGateway. All rights reserved.
 
 # English
 
-## Truckfolio beta
+## Truckfolio
 
 **Built for truck photography enthusiasts.**
 
@@ -243,9 +229,9 @@ The name comes from **Truck + Portfolio**.
 
 Originally created for personal truck-photography organization, Truckfolio eventually became useful enough to be released publicly for others with similar needs.
 
-> Current version: **v0.4.0 Beta**  
-> The application interface is available in **Chinese and English**.  
-> As a Beta release, a few little bugs may still be crawling around. 🐛
+> Current version: **v0.4.1**. This is the stable public release, with an interface available in **Chinese and English**.
+
+![Truckfolio library](assets/screenshots/library-en.png)
 
 ## Features
 
@@ -268,18 +254,14 @@ Multiple photos can be associated with the same truck, with support for choosing
 
 ### 🚛 Brand and model database
 
-Truckfolio includes a built-in truck brand and model database that continues to expand:
+Truckfolio includes a built-in truck brand, series, and vehicle-type database that continues to expand:
 
-- Expanded truck brand and model coverage
-- Added Tatra
-- Added more Mercedes-Benz models
-- Added Scania Super variants
-- Improved Scania T-series description
-- Added brand origin information
-- Improved automatic brand recognition with exact matches taking priority over partial matches
-- Fixed MAN being incorrectly detected inside Shacman
-- Improved matching for short brand names such as MAN, DAF, JAC, and UD
-- Manual brand selection now confirms the current choice and prevents automatic recognition from overriding it; editing the brand field again re-enables automatic recognition
+- Covers common truck brands from Europe, Asia, the Americas, and other regions
+- Includes Chinese and English brand names with brand-origin information
+- Includes presets and short descriptions for cab units, tractor units, rigid trucks, box trucks, curtain-siders, flatbeds, refrigerated trucks, container trucks, and sideloaders
+- Supports brand and series autocomplete
+- Automatic brand recognition prioritizes exact matches and improves handling of short names such as MAN, DAF, JAC, and UD
+- Manual brand selections are preserved until the brand field is edited again
 
 ### 🗂 Local photo catalog
 
@@ -294,6 +276,8 @@ It does **not**:
 - Modify the original photos
 
 Your images stay exactly where they already are.
+
+Truckfolio can also reveal the original photo in its folder whenever needed.
 
 ### 🔎 Search and filtering
 
@@ -327,6 +311,8 @@ Truckfolio automatically generates local statistics from your catalog, including
 
 Statistics can also be used to jump directly into matching catalog results.
 
+![Photography statistics](assets/screenshots/statistics-en.png)
+
 ### 🖼 Multi-photo management
 
 Each truck entry can contain multiple photographs, with support for:
@@ -334,8 +320,13 @@ Each truck entry can contain multiple photographs, with support for:
 - Adding local photos
 - Choosing a cover image
 - Drag-and-drop ordering
-- Viewing photo information
+- Switching photos with the left and right arrow keys
+- Viewing and revealing original photos
 - Removing individual photo associations
+
+When a vehicle entry is deleted, its cached thumbnails are cleaned up automatically while the original photos remain untouched.
+
+![Edit vehicle](assets/screenshots/edit-vehicle-en.png)
 
 ### 🔍 Photo viewer
 
@@ -360,17 +351,20 @@ The photo viewer has been upgraded for smoother browsing and zooming:
 - Chinese / English brand-name display
 - Chinese / English interface language switching
 - Copying and pasting structured vehicle information
+- Unknown, empty, or unrecognized imported fields never overwrite existing values
+- Smoother importing and browsing of large photo collections, especially on Windows
+- Improved thumbnail edge rendering with faithful photo color
 
 ---
 
 ## Download
 
-Download the latest version from **GitHub Releases**.
+Download the latest version from **[GitHub Releases](https://github.com/GaGateway/Truckfolio/releases/latest)**.
 
 | Platform | Package |
 | --- | --- |
-| macOS | `.dmg` |
-| Windows | `.msi` / `.exe` |
+| macOS | `.dmg` (Apple Silicon) |
+| Windows | `.exe` (x64) |
 
 ### Installation notice
 
@@ -409,20 +403,6 @@ Keep the trailing space, drag `Truckfolio.app` directly into the Terminal window
 #### Windows
 
 Windows SmartScreen may display a warning for an application that has not yet established reputation. Verify that the installer came from this project's GitHub Releases page before deciding whether to continue.
-
----
-
-## Beta status
-
-Truckfolio is currently in **Beta**.
-
-The main functionality is usable, but the application may still contain:
-
-- Occasional bugs
-- Compatibility issues in specific environments
-- Undiscovered interface or data-related problems
-
-If you find a strange little bug, feel free to report it through GitHub Issues.
 
 ---
 
