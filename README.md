@@ -17,7 +17,7 @@ Truckfolio 是一款用于整理 **卡车摄影作品** 的本地图鉴工具。
 
 Truckfolio 是一个**纯本地的摄影作品图鉴**，不是云图库。
 
-照片需要由你自己拍摄或保存，并存放在自己的电脑或硬盘里。Truckfolio 只负责在本地帮你整理这些作品，不会上传你的照片，也不会提供其他人的卡车照片 XwX
+你只需要把自己拍摄的照片保存在电脑或硬盘里，Truckfolio 会在本地帮你整理成图鉴；照片不会被上传，这里也不是用来浏览他人作品的云图库 XwX
 
 - ✅ 我自己拍了一堆车，想要一个软件来整理这些摄影作品
 - ❌ 我想要一个像 JetPhotos 一样、可以浏览大家作品的卡车云图库
@@ -255,7 +255,7 @@ Originally created for personal truck-photography organization, Truckfolio event
 
 Truckfolio is a **fully local catalog for your own photography**, not a cloud gallery.
 
-Your photos need to be taken or saved by you and kept on your own computer or drive. Truckfolio organizes them locally; it does not upload your photos or provide anyone else's truck photos. XwX
+Keep the photos you take on your own computer or drive, and Truckfolio will organize them into a local catalog. Nothing is uploaded, and this is not a cloud gallery for browsing other people's work. XwX
 
 - ✅ I have photographed a lot of trucks and want an app to organize my work
 - ❌ I want a JetPhotos-style cloud gallery where I can browse everyone's work
